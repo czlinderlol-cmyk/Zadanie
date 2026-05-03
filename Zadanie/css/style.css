@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #597759;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {Background-color: #1c1b1b;color: #0086fd; padding:1rem; text-align: center; }
+nav {background-color: #776660; color: white; display: flex; justify-content: center;gap: 1rem; padding:.5rem; text-wrap: wrap; }
+nav a {color: white; text-decoration: none;}
+nav a:hover{text-decoration: underline;}  
+.container{ display:grid; grid-template-columns:4fr 1fr;gap: 1rem;
+    padding: 1rem}
+
+main{display:grid; grid-template-columns:1fr 1fr;gap: 1rem;}
+article{ background-color: #597759;
+padding:1rem;
+border-radius: 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 3);}
+
+article p {text-align: justify;}
+article:nth-of-type(odd) .article-img{float: left; padding-right:0.5rem}
+article:nth-of-type(even) .article-img{float: right; padding-left:0.5rem}
+
+aside{background-color : #596559;
+border-radius:0.5rem;
+padding:1rem;}
+aside img{max-width:40%;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 3);}
+button
+{background-color: #596559; color: white; border-radius: 0.5rem; border: 1px #0086fd solid; padding: 0.5REM 1REM}
+button:hover    {background-color: #343785;}
+footer{background-color: #596559; color: #0086fd; text-align: center; padding: 1rem;}
+@media (max-width: 800px) {
+   .container {grid-template-columns: 1fr;}
+}
+main{grid-template-columns: 1fr;}
+nav{flex-direction: column; align-items: center;}
