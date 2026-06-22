@@ -1,0 +1,19 @@
+{
+  "programs": [
+    {
+      "name": "Computer Science",
+      "year": 1,
+      "courses": [
+        { "code": "CS101", "title": "Intro to Programming", "credits": 6 },
+        { "code": "CS102", "title": "Web Basics", "credits": 5 }
+      ]
+    },
+    {
+      "name": "Information Systems",
+      "year": 2,
+      "courses": [
+        { "code": "IS201", "title": "Databases", "credits": 5 }
+      ]
+    }
+  ]
+}
